@@ -1,6 +1,27 @@
 {
     "name": "claude-js",
     "version": "1.0.0",
+    "description": "NB Code terminal coding assistant for Windows with custom startup UX and OpenAI-compatible API support",
+    "license": "MIT",
+    "homepage": "https://github.com/Asnhanx/nb-code#readme",
+    "bugs": {
+        "url": "https://github.com/Asnhanx/nb-code/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Asnhanx/nb-code.git"
+    },
+    "keywords": [
+        "cli",
+        "terminal",
+        "bun",
+        "ink",
+        "typescript",
+        "coding-assistant",
+        "openai-compatible",
+        "developer-tools",
+        "windows"
+    ],
     "type": "module",
     "workspaces": [
         "packages/*",
