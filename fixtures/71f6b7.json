@@ -1,0 +1,150 @@
+{
+  "input": [
+    "只回复OK"
+  ],
+  "output": [
+    {
+      "type": "stream_event",
+      "event": {
+        "type": "message_start",
+        "message": {
+          "id": "resp_088517b4507a6f210169cca1815410819092bc56d243e91a0e",
+          "container": null,
+          "content": [],
+          "context_management": null,
+          "model": "gpt-5.4",
+          "role": "assistant",
+          "stop_reason": null,
+          "stop_sequence": null,
+          "type": "message",
+          "usage": {
+            "cache_creation": {
+              "ephemeral_1h_input_tokens": 0,
+              "ephemeral_5m_input_tokens": 0
+            },
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "inference_geo": "",
+            "input_tokens": 92,
+            "iterations": [],
+            "output_tokens": 0,
+            "server_tool_use": {
+              "web_fetch_requests": 0,
+              "web_search_requests": 0
+            },
+            "service_tier": "standard",
+            "speed": "standard"
+          }
+        }
+      },
+      "ttftMs": 14655
+    },
+    {
+      "type": "stream_event",
+      "event": {
+        "type": "content_block_start",
+        "index": 0,
+        "content_block": {
+          "type": "text",
+          "text": "",
+          "citations": null
+        }
+      }
+    },
+    {
+      "type": "stream_event",
+      "event": {
+        "type": "content_block_delta",
+        "index": 0,
+        "delta": {
+          "type": "text_delta",
+          "text": "OK"
+        }
+      }
+    },
+    {
+      "uuid": "UUID-3",
+      "requestId": "REQUEST_ID",
+      "timestamp": "2026-04-01T04:39:29.119Z",
+      "message": {
+        "id": "resp_088517b4507a6f210169cca1815410819092bc56d243e91a0e",
+        "container": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "OK",
+            "citations": []
+          }
+        ],
+        "context_management": null,
+        "model": "gpt-5.4",
+        "role": "assistant",
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "type": "message",
+        "usage": {
+          "input_tokens": 92,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 19,
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "",
+          "iterations": [],
+          "speed": "standard"
+        }
+      },
+      "type": "assistant"
+    },
+    {
+      "type": "stream_event",
+      "event": {
+        "type": "content_block_stop",
+        "index": 0
+      }
+    },
+    {
+      "type": "stream_event",
+      "event": {
+        "type": "message_delta",
+        "context_management": null,
+        "delta": {
+          "container": null,
+          "stop_reason": "end_turn",
+          "stop_sequence": null
+        },
+        "usage": {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "inference_geo": "",
+          "input_tokens": 92,
+          "iterations": [],
+          "output_tokens": 19,
+          "server_tool_use": {
+            "web_fetch_requests": 0,
+            "web_search_requests": 0
+          },
+          "service_tier": "standard",
+          "speed": "standard"
+        }
+      }
+    },
+    {
+      "type": "stream_event",
+      "event": {
+        "type": "message_stop"
+      }
+    }
+  ]
+}
